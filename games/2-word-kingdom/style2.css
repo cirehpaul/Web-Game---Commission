@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  background-image: url('images/wordscrambleG.png'); 
+  background-size: cover; 
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#lobby,
+#container {
+  text-align: center;
+}
+
+h1 {
+  color: #000;
+  font-size: 45px; 
+  margin-bottom: 20px; 
+  text-align: center;
+}
+
+#word-container {
+  font-size: 40px; 
+  margin-bottom: 30px; 
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+input[type="text"] {
+  padding: 15px; /* Palakihin ang padding para mas malaki ang input */
+  margin-bottom: 20px; 
+  border-radius: 8px; 
+  border: 2px solid #FF6347; 
+}
+
+button {
+  padding: 20px 40px; /* Palakihin ang padding */
+  margin: 5px;
+  background-color: #FF6347;
+  color: white;
+  border: 2px solid #FF6347;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; 
+  background-image: linear-gradient(to bottom, #FF6347, #FF4500);
+}
+
+button:hover {
+  background-color: #FF4500; 
+  border-color: #FF4500;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FF6347; 
+}
+
+#score {
+  font-size: 28px; 
+  margin-top: 30px; 
+}
+
+#timer {
+  font-size: 28px; 
+  margin-top: 20px; 
+}
+
+#hint-text {
+  font-size: 20px;
+}

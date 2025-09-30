@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Middle Vowel Match</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Middle Vowel Match</h1>
+    <button id="start-button" onclick="startGame()">Start Game</button>
+    <div id="game-content" style="display: none;">
+      <h2 id="word-display" class="word-display">?</h2>
+
+      <div id="game-container">
+        <div class="vowel-box"></div>
+        <div class="vowel-box"></div>
+        <div class="vowel-box"></div>
+      </div>
+
+      <p id="hint"></p>
+      <div id="message"></div>
+
+      <div id="score-container">
+        <span id="score">Score: 0</span>
+      </div>
+
+      <div id="lives-container">
+        <span id="lives">Lives: 3</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="jiji.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,128 @@
+/* General styles for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/monkey.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color */
+}
+
+/* Styles for the h1 */
+h1 {
+    font-size: 56px; /* Increase font size for the h1 */
+    color: #000; /* Dark text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow for contrast */
+}
+
+/* Styles for the start button */
+#start-button {
+    font-size: 24px; /* Increase font size for the start button */
+    padding: 12px 24px; /* Add padding to the button */
+    margin: auto; /* Center the button horizontally */
+    margin-bottom: 20px; /* Add some space below the button */
+    background-image: linear-gradient(135deg, #ff5252, #ff4081); /* Gradient background */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 50px; /* Increase border radius for rounded appearance */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    transition: transform 0.3s ease, background-image 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#start-button:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    background-image: linear-gradient(135deg, #ff4081, #ff5252); /* Dynamic gradient change on hover */
+}
+
+
+/* Wrapper styles for centering content */
+.wrapper {
+    text-align: center;
+}
+
+/* Styles for the game container */
+#game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 600px; /* Limit the width for better readability */
+}
+
+/* Styles for the vowel boxes */
+.vowel-box {
+    width: 80px; /* Increase width */
+    height: 80px; /* Increase height */
+    margin: 10px;
+    text-align: center;
+    line-height: 80px; /* Adjust line-height to center text vertically */
+    font-size: 20px; /* Slightly decrease font size */
+    cursor: pointer;
+    border: 2px solid #333; /* Border color */
+    border-radius: 10px; /* Increase border radius */
+    background-color: #fff; /* White background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow for depth */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover effect for scale and background color */
+    text-transform: uppercase; /* Convert text to uppercase */
+}
+
+.vowel-box:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    background-color: #f8f8f8; /* Lighten background color on hover */
+}
+
+/* Styles for correct answers */
+.correct {
+    background-color: #28a745; /* Green color for correct answers */
+}
+
+/* Styles for wrong answers */
+.wrong {
+    background-color: #dc3545; /* Red color for wrong answers */
+}
+
+/* Styles for the word display */
+#word-display {
+    font-size: 55px; /* Increase font size for the word display */
+    margin-bottom: 20px; /* Add some space below the word display */
+    color: #000; /* Dark text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow for contrast */
+    text-transform: uppercase; /* Convert text to uppercase */
+}
+
+
+/* Styles for the message */
+#message {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Styles for the hint */
+#hint {
+    font-size: 24px; /* Increase font size for the hint */
+    color: #fff; /* Dark text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow for contrast */
+    text-transform: uppercase; /* Convert text to uppercase */
+}
+
+/* Styles for the lives container */
+#lives {
+    font-size: 24px; /* Increase font size for the lives container */
+    color: #fff; /* Dark text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow for contrast */
+}
+
+/* Styles for the score container */
+#score {
+    font-size: 24px; /* Increase font size for the score container */
+    color: #fff; /* Dark text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow for contrast */
+}

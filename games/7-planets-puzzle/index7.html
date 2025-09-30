@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style7.css" />
+    <script src="script7.js" defer type="module"></script>
+    <title>Puzzle Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="puzzle-wrapper">
+        <div class="cells"></div>
+        <div class="puzzle"></div>
+        <div class="final-img">
+          <div class="upload-img">
+            <div class="btns">
+              <button class="img-btn btn random-btn">get random image</button>
+              <label for="input-file" class="img-btn btn">upload new image</label>
+            </div>
+            <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file" />
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal-content">
+          <h2 class="modal-heading">Game Over</h2>
+          <h3 class="modal-text">YOU WON 😍. <span class="attempt">5</span> wrong attempts</h3>
+          <button class="modal-btn btn">Start Again</button>
+        </div>
+      </div>
+      <div class="loader active"><img src="images/loader.gif" /></div>
+      <h1 class="heading">Planets Puzzle</h1>
+    </div>
+  </body>
+</html>
